@@ -7,7 +7,19 @@
 
 body {
   min-height: 178vh;
-  min-width: 100vw;
+  min-width: 100%;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+}
+::-webkit-scrollbar-track{
+  
+  background-color: #001040;
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 4px;
+  background-color: #00ff15;
 }
 
 html {
@@ -213,7 +225,7 @@ nav li :hover {
 
 .gap {
   display:flex;
-  height: 17vh;
+  height: 20vh;
   width: 100%;
   background-color: #e7e6eb;
   border: 2px solid #00ff15;
@@ -223,7 +235,7 @@ nav li :hover {
 
 .truck {
   padding: 2%;
-  width: 45%;
+  width: 47%;
   transition:  all 5s ease 0s;
  }
 
@@ -388,11 +400,10 @@ footer a {
   }
 
   .gap {
-    height: 12vh;
+    height: 13.7vh;
   }
 
   .truck {
-    padding: 2%;
     width: 32%;
     transition:  all 5s ease 0s;
    }
@@ -588,6 +599,10 @@ footer a {
 
   .secsobre {
     height: 150vh;
+  }
+
+  .gap{
+    height: 12.5vh;
   }
 }
 
