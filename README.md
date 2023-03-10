@@ -3,6 +3,7 @@
 
 <h1 align="center">Projeto GT Project Trucks</h1>
 
+
 <p align="center">
   Projeto Freelancer execultado para a Empresa GT Project Trucks, apresnentando os projetos e serviços prestados pela empresa
 </p>
@@ -44,5 +45,9 @@ Você pode visualizar a pagina do projeto através [DESSE LINK](https://gtprojec
 
 
 ---
-
 Feito com ♥ by André Faustino
+
+<br>
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b9c5d040-e035-44d5-8302-68906631ec60/deploy-status)](https://app.netlify.com/sites/gt-project/deploys)
+
