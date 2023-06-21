@@ -85,12 +85,12 @@ nav li :hover {
 }
 
 .principal {
-  height: 100vh;
+  height: 105vh;
   width: 100%;
   background-size: cover;
   background-position: initial;
   background-repeat: no-repeat;
-  background-image: url(../src/background.jpg);
+  background-image: url(../src/logo.jpg);
 }
 
 .principal {
