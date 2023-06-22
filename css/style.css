@@ -36,7 +36,7 @@ html {
   z-index: 2;
 }
 
-nav {
+/* nav {
   height: 8vh;
   width: 100%;
   display: flex;
@@ -69,6 +69,108 @@ nav li {
 nav li :hover {
   color: #00ff15;
   transition: 0.5s;
+} */
+
+nav {
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  overflow: hidden;
+  -webkit-transform: translate(-50%, 40%);
+  transform: translate(-0%, 0%);
+  background: linear-gradient(to left, #303e6b, #0e0d0d);
+  padding: 10px;
+  margin-right: 50px;
+}
+
+
+ul {
+
+  position: relative;
+  display: flex;
+
+}
+
+
+ul li {
+  list-style: none;
+}
+
+ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  padding-left: 30px;
+  font-weight: 400;
+  transition: 0.5s;
+  /* font-family: "Nunito", sans-serif; */
+}
+
+
+ul li a:hover {
+
+  color: #000;
+  background: #ffffff;
+  border-radius: 10px;
+  transition: 0.5s;
+ 
+
+}
+
+ul li a:before {
+  content: '';
+  position: absolute;
+  top: 40%;
+  left: 100%;
+  right: 100%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: initial;
+  align-items: center;
+  font-size: 5em;
+  color: rgba(0, 0, 0, .1);
+  border-radius: 50%;
+  z-index: -1;
+  opacity: 0;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 500px;
+  transition: letter-spacing 0.5s, left 0.5s;
+}
+
+ul li a:hover:before {
+
+  content: attr(data-text);
+  opacity: 1;
+  left: 10%;
+  letter-spacing: 10px;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+ul li:nth-child(6n+1) a:before {
+  background: #EEC643;
+}
+
+ul li:nth-child(6n+2) a:before {
+  background: #B2BCAA;
+}
+
+ul li:nth-child(6n+3) a:before {
+  background: #F0803C;
+}
+
+ul li:nth-child(6n+4) a:before {
+  background: #4fb1dfe0;
+}
+ul li:nth-child(6n+5) a:before {
+  background: #7ce07c;
+}
+ul li:nth-child(6n+6) a:before {
+  background: #e77676;
 }
 
 .mobile-menu {
@@ -85,12 +187,12 @@ nav li :hover {
 }
 
 .principal {
-  height: 105vh;
+  height: 110vh;
   width: 100%;
   background-size: cover;
   background-position: initial;
   background-repeat: no-repeat;
-  background-image: url(../src/logo.jpg);
+  background-image: url(../src/logo1);
 }
 
 .principal {
